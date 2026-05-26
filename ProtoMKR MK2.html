@@ -1,0 +1,1262 @@
+<!DOCTYPE html>
+<html lang="">
+    <head>
+        <title><!--</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="bear-note-unique-identifier" content="8B95B8A1-701A-41D8-8943-31DBAB7DB28D">
+        <meta name="created" content="2026-05-25T15:16:14+0800">
+        <meta name="modified" content="2026-05-26T13:46:45+0800">
+        <meta name="tags" content="">
+        <meta name="last device" content="iPad">
+        
+        <script id="MathJax-script" async
+                src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+        </script>
+        <style>
+             body {
+   --base-background-color: #ffffff;
+   --document-background-color: var(--base-background-color);
+ }
+
+.document-wrapper {
+  /* Constants used to transform theme values to CSS */
+  --transform-line-height-factor: 1.17;
+
+  /* From template */
+  --base-text-color: #444444;
+  --base-text-secondary-color: #888888;
+  --base-text-tertiary-color: #d9d9d9;
+  --base-background-color: #ffffff;
+  --base-background-secondary-color: #F3F5F7;
+  --base-background-tertiary-color: #E4E5E6;
+  --base-stroke-color: #d9d9d9;
+  --base-stroke-secondary-color: #d9d9d9;
+  --base-accent-color: #DD4C4F;
+  --base-highlight-color: ;
+
+  --document-background-color: var(--base-background-color);
+  --document-text-color: var(--base-text-color);
+  --document-text-secondary-color: var(--base-text-secondary-color);
+  --document-text-light-color: var(--base-text-secondary-color);
+  --document-accent-color: var(--base-accent-color);
+  --document-cursor-color: var(--base-accent-color);
+  --document-link-color: var(--base-accent-color);
+  --document-list-marker-color: var(--base-accent-color);
+  --document-marker-color: var(--base-text-tertiary-color);
+  --document-selection-color: var(--base-selection-color);
+  --document-selection-inactive-color: var(--base-background-tertiary-color);
+  --document-text-font: "AvenirNext-Regular";
+  --document-text-size: 15px;
+  --document-line-height-multiplier: calc(
+    1.5 * var(--transform-line-height-factor)
+  );
+
+  --document-headers-text-color: var(--base-text-color);
+  --document-headers-font: "AvenirNext-Medium";
+  --document-headers-modular-scale: 1.125;
+  --document-headers-line-height-multiplier: calc(
+    1.3 * var(--transform-line-height-factor)
+  );
+  --document-headers-add-top-bottom-padding: 1;
+  --document-headers-padding-top-multiplier: 0.5;
+  --document-headers-padding-bottom-multiplier: 0.3;
+
+  --document-code-text-color: var(--base-text-color);
+  --document-code-border-color: var(--base-text-tertiary-color);
+  --document-code-background-color: var(--base-background-secondary-color);
+  --document-code-font: "Menlo-Regular";
+  --document-code-text-size-multiplier: 0.91em;
+
+  --document-code-syntax-highlight-comment: #65798c;
+  --document-code-syntax-highlight-constant: #0095c9;
+  --document-code-syntax-highlight-number: #0095c9;
+  --document-code-syntax-highlight-string: #d12f1b;
+  --document-code-syntax-highlight-entity: #4a838b;
+  --document-code-syntax-highlight-keyword: #ad3da4;
+  --document-code-syntax-highlight-function: #4a838b;
+  --document-code-syntax-highlight-variable: #4a838b;
+
+  --document-task-background-color: var(--base-background-color);
+  --document-task-border-color: var(--base-text-secondary-color);
+  --document-task-check-color: var(--base-text-color);
+
+  --document-tag-background-color: var(--base-background-tertiary-color);
+  --document-tag-text-color: var(--base-text-color);
+  --document-tag-marker-color: var(--base-text-secondary-color);
+
+  --document-highlighter-background-color: #CDF7BD;
+  --document-highlighter-text-color: #102D05;
+
+  --document-highlighter-red-background-color: #FFD5D5;
+  --document-highlighter-red-text-color: #321A00;
+
+  --document-highlighter-blue-background-color: #C9E5FF;
+  --document-highlighter-blue-text-color: #001A32;
+
+  --document-highlighter-green-background-color: #CDF7BD;
+  --document-highlighter-green-text-color: #102D05;
+
+  --document-highlighter-purple-background-color: #FEDAFF;
+  --document-highlighter-purple-text-color: #310032;
+
+  --document-highlighter-yellow-background-color: #FCF195;
+  --document-highlighter-yellow-text-color: #312C01;
+  
+  --document-file-fold-color: var(--base-background-tertiary-color);
+  --document-file-background-color: var(--base-background-secondary-color);
+
+  --document-separator-border-color: var(--base-stroke-secondary-color);
+
+  --document-table-border-color: var(--base-stroke-secondary-color);
+  --document-table-cell-background-color: var(--base-background-color);
+  --document-table-cell-alternate-background-color: var(
+    --base-background-secondary-color
+  );
+  
+  /* Callouts */
+  --document-md-indentation: 32px;
+  --nested-block-marker-skew: -5px;
+  /* Blue */
+  --document-callout-note-background-color: hsla(209, 100%, 89%, 0.15);
+  --document-callout-note-border-color: hsla(209, 80%, 35%, 0.1);
+  --document-callout-note-bar-color: hsla(209, 80%, 35%, 0.8);
+  
+  /* Green */
+  --document-callout-tip-background-color: hsla(103, 78%, 85%, 0.15);
+  --document-callout-tip-border-color: hsla(103, 80%, 35%, 0.1);
+  --document-callout-tip-bar-color: hsla(103, 80%, 35%, 0.8);
+  
+  /* Purple */
+  --document-callout-important-background-color: hsla(298, 100%, 93%, 0.15);
+  --document-callout-important-border-color: hsla(298, 80%, 35%, 0.07);
+  --document-callout-important-bar-color: hsla(298, 80%, 35%, 0.8);
+  
+  /* Yellow */
+  --document-callout-warning-background-color: hsla(54, 94%, 79%, 0.15);
+  --document-callout-warning-border-color: hsla(45, 94%, 50%, 0.15);
+  --document-callout-warning-bar-color: hsla(45, 94%, 50%, 1);
+  
+  /* Red */
+  --document-callout-caution-background-color: hsla(31, 98%, 81%, 0.15);
+  --document-callout-caution-border-color: hsla(31, 98%, 50%, 0.1);
+  --document-callout-caution-bar-color: hsla(31, 98%, 50%, 1);
+}
+
+.document-wrapper,body{background-color:var(--document-background-color)}.document-wrapper h1.setext,.document-wrapper h2.setext{border-bottom:calc(2 * var(--document-hairline-width)) solid var(--document-separator-border-color);padding-bottom:.6em}.document-wrapper blockquote blockquote blockquote blockquote blockquote::before,.document-wrapper blockquote blockquote blockquote::before,.document-wrapper blockquote::before{background-color:var(--document-list-marker-color)}.document-wrapper td[data-alignment="1"],.document-wrapper th{text-align:left}.document-wrapper :after,.document-wrapper a,.document-wrapper abbr,.document-wrapper acronym,.document-wrapper address,.document-wrapper applet,.document-wrapper article,.document-wrapper aside,.document-wrapper audio,.document-wrapper b,.document-wrapper big,.document-wrapper blockquote,.document-wrapper canvas,.document-wrapper caption,.document-wrapper center,.document-wrapper cite,.document-wrapper code,.document-wrapper dd,.document-wrapper del,.document-wrapper details,.document-wrapper dfn,.document-wrapper div,.document-wrapper dl,.document-wrapper dt,.document-wrapper em,.document-wrapper embed,.document-wrapper fieldset,.document-wrapper figcaption,.document-wrapper figure,.document-wrapper footer,.document-wrapper form,.document-wrapper h1,.document-wrapper h2,.document-wrapper h3,.document-wrapper h4,.document-wrapper h5,.document-wrapper h6,.document-wrapper header,.document-wrapper hgroup,.document-wrapper i,.document-wrapper iframe,.document-wrapper ins,.document-wrapper kbd,.document-wrapper label,.document-wrapper legend,.document-wrapper li,.document-wrapper mark,.document-wrapper menu,.document-wrapper nav,.document-wrapper object,.document-wrapper ol,.document-wrapper output,.document-wrapper p,.document-wrapper pre,.document-wrapper q,.document-wrapper ruby,.document-wrapper s,.document-wrapper samp,.document-wrapper section,.document-wrapper small,.document-wrapper span,.document-wrapper strike,.document-wrapper strong,.document-wrapper summary,.document-wrapper table,.document-wrapper tbody,.document-wrapper td,.document-wrapper tfoot,.document-wrapper th,.document-wrapper thead,.document-wrapper time,.document-wrapper tr,.document-wrapper tt,.document-wrapper u,.document-wrapper ul,.document-wrapper var,.document-wrapper video{all:unset}.document-wrapper{--document-inline-padding-top-bottom:0.25em;--document-inline-padding-left-right:0.25em;--header-1-font-size:2em;--header-2-font-size:1.6em;--header-3-font-size:1.27em;--document-hairline-width:calc(var(--document-text-size) / 15);box-sizing:border-box;color:var(--document-text-color);font-family:var(--document-text-font);font-size:var(--document-text-size);line-height:var(--document-line-height-multiplier);min-height:100%;max-width:48em;width:100%;tab-size:4;margin:0 auto;padding:0 2em}body{text-rendering:optimizeLegibility}.document-wrapper:focus-visible{outline:0}.document-wrapper .marker{color:var(--document-marker-color);display:none}.document-wrapper [data-direction="2"]{direction:rtl}.document-wrapper div.footnote,.document-wrapper div.link-definition,.document-wrapper p{display:block}.document-wrapper p.blank-line::before{content:" "}.document-wrapper h1,.document-wrapper h2,.document-wrapper h3,.document-wrapper h4,.document-wrapper h5,.document-wrapper h6{font-family:var(--document-headers-font);display:block;line-height:var(--document-headers-line-height-multiplier)}.document-wrapper h1{font-size:var(--header-1-font-size);padding-block-start:0.8em;padding-block-end:0.33em}.document-wrapper h2{font-size:var(--header-2-font-size);padding-block-start:0.66em;padding-block-end:0.27em}.document-wrapper h3{font-size:var(--header-3-font-size);padding-block-start:0.53em;padding-block-end:0.27em}.document-wrapper code,.document-wrapper pre{font-size:var(--document-code-text-size-multiplier);font-family:var(--document-code-font),monospace}.document-wrapper h4,.document-wrapper h5,.document-wrapper h6{padding-block-start:0.4em;padding-block-end:0.27em}.document-wrapper h1.setext{margin-bottom:.45em}.document-wrapper h2.setext{margin-bottom:.2em}.document-wrapper .fenced-code *,.document-wrapper .fenced-code-content .marker,.document-wrapper .fenced-code-content .space,.document-wrapper .hard-linebreak-marker,.document-wrapper .image .space,.document-wrapper .image-destination,.document-wrapper .image-label,.document-wrapper .image-title,.document-wrapper .indented-code .space,.document-wrapper .link .space,.document-wrapper .link-destination,.document-wrapper .link-label,.document-wrapper .link-title,.document-wrapper .replace .text,.document-wrapper .setext-heading-marker+.line-ending,.document-wrapper .yaml-marker+.line-ending,.document-wrapper li>p>.space:first-child,.document-wrapper tr.delimiter-row{display:none}.document-wrapper ol,.document-wrapper ul{display:block;padding-inline-start:2.13em}.document-wrapper li{display:list-item;color:var(--document-text-color)}.document-wrapper .color-marker,.document-wrapper .entity-marker,.document-wrapper .fenced-code-content,.document-wrapper .fenced-code-content *,.document-wrapper .footnote-separator,.document-wrapper .link-definition-separator,.document-wrapper code.code-inline,.document-wrapper li>p{display:inline}.document-wrapper ul{list-style-type:disc}.document-wrapper li li li li li li li ul,.document-wrapper li li li li li ul,.document-wrapper li li li ul,.document-wrapper li ul{list-style:circle}.document-wrapper li li li li li li ul,.document-wrapper li li li li ul,.document-wrapper li li ul{list-style:disc}.document-wrapper li::marker{color:var(--document-list-marker-color)}.document-wrapper ol{list-style-type:none;counter-reset:custom-list-item calc(var(--data-list-start,1) - 1)}.document-wrapper ol>li{counter-increment:custom-list-item;position:relative}.document-wrapper ol>li::before{content:counter(custom-list-item) ". ";color:var(--document-list-marker-color);position:absolute;transform:translate(calc(-100% - .33em),0)}.document-wrapper ol>li[data-big-number=true]{margin-inline-start:-2.05em}.document-wrapper ol>li[data-big-number=true]::before{position:static;padding-inline-end:0.25em}.document-wrapper ol>li[data-list-type="1"]:before{content:counter(custom-list-item) ") "}.document-wrapper [data-direction="2"] ol>li::before,.document-wrapper ol[data-direction="2"]>li::before{transform:translate(calc(100% + .33em),0)}.document-wrapper li[role=checkbox]{list-style:none;position:relative}.document-wrapper li[aria-checked=true]{color:var(--document-text-secondary-color)}.document-wrapper .todo-checkbox{display:inline-block;margin-left:-1.7em;margin-right:.5em}.document-wrapper .todo-checkbox svg{display:inline-block;margin-bottom:-.3em}.document-wrapper blockquote{display:block;padding-inline-start:2.13em;position:relative}.document-wrapper code,.document-wrapper mark,span.highlighted{padding:var(--document-inline-padding-top-bottom) var(--document-inline-padding-left-right)}.document-wrapper blockquote::before{content:"";position:absolute;top:.2em;left:1em;width:.13em;height:calc(100% - .4em);border:var(--document-hairline-width) solid var(--document-list-marker-color);border-radius:.33em}.document-wrapper code,.document-wrapper pre.fenced-code,.document-wrapper pre.indented-code,.document-wrapper pre.yaml{color:var(--document-code-text-color);background-color:var(--document-code-background-color);border-radius:.25em}.document-wrapper [data-direction="2"] blockquote::before,.document-wrapper blockquote[data-direction="2"]::before{left:0;right:1em}.document-wrapper blockquote blockquote blockquote blockquote blockquote blockquote::before,.document-wrapper blockquote blockquote blockquote blockquote::before,.document-wrapper blockquote blockquote::before{background-color:transparent}.document-wrapper hr{display:block;margin-block-start:calc(var(--document-line-height-multiplier) * 0.5em);margin-block-end:calc(var(--document-line-height-multiplier) * -0.5em);border-top:var(--document-hairline-width) solid var(--document-separator-border-color)}.document-wrapper pre{display:block;white-space:pre-wrap}.document-wrapper pre.indented-code{padding-inline-start:2.13em}.document-wrapper pre.fenced-code,.document-wrapper pre.yaml{padding:0 .5em}.document-wrapper .fenced-code::before{content:"\200B"}.document-wrapper code{font-weight:400;font-style:normal;display:block}.document-wrapper mark code{color:var(--document-text-color);background-color:var(--document-highlighter-background-color)}.document-wrapper em,.document-wrapper i{font-family:AvenirNext-Italic}.document-wrapper b,.document-wrapper strong,.document-wrapper th{font-family:AvenirNext-Bold}.document-wrapper mark,span.highlighted{color:var(--document-highlighter-background-text-color);background-color:var(--document-highlighter-background-color);text-decoration:inherit;unicode-bidi:embed;border-radius:.25em}.document-wrapper mark.red,span.highlighted.red{color:var(--document-highlighter-red-background-text-color);background-color:var(--document-highlighter-red-background-color)}.document-wrapper mark.blue,span.highlighted.blue{color:var(--document-highlighter-blue-background-text-color);background-color:var(--document-highlighter-blue-background-color)}.document-wrapper mark.green,span.highlighted.green{color:var(--document-highlighter-green-background-text-color);background-color:var(--document-highlighter-green-background-color)}.document-wrapper mark.yellow,span.highlighted.yellow{color:var(--document-highlighter-yellow-background-text-color);background-color:var(--document-highlighter-yellow-background-color)}.document-wrapper mark.purple,span.highlighted.purple{color:var(--document-highlighter-purple-background-text-color);background-color:var(--document-highlighter-purple-background-color)}.document-wrapper u{text-decoration:underline;text-decoration-color:var(--document-accent-color);unicode-bidi:embed}.document-wrapper s,.document-wrapper strike{text-decoration:line-through}.document-wrapper a{color:var(--document-link-color);unicode-bidi:embed;cursor:pointer}.document-wrapper a:hover{text-decoration:inherit}.document-wrapper .wiki-separator-marker{display:inline;color:inherit}.document-wrapper .link-definition-title{color:var(--document-text-light-color)}.document-wrapper .footnote-ref{font-size:.9em;vertical-align:super}.document-wrapper span.entity{direction:ltr;unicode-bidi:embed;color:var(--document-code-syntax-highlight-entity)}.document-wrapper span.escape{unicode-bidi:embed}.document-wrapper .color{font-family:var(--document-code-font),monospace;font-size:var(--document-code-text-size-multiplier);padding-inline-start:1.2em;position:relative;direction:ltr;unicode-bidi:embed}.document-wrapper .color::before{content:"";position:absolute;width:.9em;height:.9em;left:0;bottom:0;transform:translateY(-15%);border:var(--document-hairline-width) solid rgb(0,0,0,.3);border-radius:.9em;background-color:var(--data-color)}.document-wrapper .hashtag{color:var(--document-tag-text-color);background-color:var(--document-tag-background-color);border-radius:1em;padding:calc(var(--document-inline-padding-top-bottom) - 2 * var(--document-hairline-width)) calc(var(--document-inline-padding-left-right) + .3em);unicode-bidi:embed}.document-wrapper .hashtag>.marker{display:inline;color:var(--document-tag-marker-color);padding:0}.document-wrapper table{display:block;max-width:fit-content;overflow-x:auto;border-collapse:separate;border-spacing:0;border:var(--document-hairline-width) solid var(--document-table-border-color);border-radius:.33em;margin-bottom:calc(var(--document-line-height-multiplier) * 1em)}.document-wrapper table[data-direction="2"]{margin-left:auto;direction:ltr}.document-wrapper tr{display:table-row;background-color:var(--document-table-cell-background-color)}.document-wrapper tr.header-row,.document-wrapper tr:nth-child(odd){background-color:var(--document-table-cell-alternate-background-color)}.document-wrapper td,.document-wrapper th{box-sizing:border-box;display:table-cell;padding:.37em .75em;min-width:5em;border-right:var(--document-hairline-width) solid var(--document-table-border-color)}.document-wrapper td:last-of-type,.document-wrapper th:last-of-type{border:none}.document-wrapper table[data-direction="2"] td{margin-left:auto}.document-wrapper td[data-alignment="2"]{text-align:right}.document-wrapper td[data-alignment="3"]{text-align:center}.document-wrapper .code_comment{color:var(--document-code-syntax-highlight-comment)}.document-wrapper .code_constant{color:var(--document-code-syntax-highlight-constant)}.document-wrapper .code_number{color:var(--document-code-syntax-highlight-number)}.document-wrapper .code_string{color:var(--document-code-syntax-highlight-string)}.document-wrapper .code_entity{color:var(--document-code-syntax-highlight-entity)}.document-wrapper .code_keyword{color:var(--document-code-syntax-highlight-keyword)}.document-wrapper .code_function{color:var(--document-code-syntax-highlight-function)}.document-wrapper .code_variable{color:var(--document-code-syntax-highlight-variable)}.document-wrapper img{max-width:100%}.document-wrapper .pdf_preview{display:inline-block;width:100%;height:500px;background-color:#fff;overflow:hidden;padding:0;margin:0;position:relative;border-radius:4px}.document-wrapper .arrow svg #body,.document-wrapper .arrow svg #head{fill:var(--base-text-color)}.document-wrapper .todo-checkbox svg #body{stroke:var(--document-task-border-color)}.document-wrapper .todo-checkbox svg #check{fill:var(--document-task-check-color)}.document-wrapper .todo-checkbox.todo-checked svg #body{opacity:.35}.document-wrapper .todo-checkbox.todo-checked svg #check{opacity:.4}.document-wrapper blockquote.md-callout{padding-top:.8em;padding-bottom:.8em;border:1px solid;margin-inline:calc((var(--document-md-indentation) - 4px) * 0.5 + var(--nested-block-marker-skew));border-radius:3px;padding-inline-start:calc(var(--document-md-indentation) - 9px);padding-inline-end:calc(var(--document-md-indentation) - 9px);margin-left:1em}.document-wrapper blockquote.md-callout:before{top:0;left:0;width:.13em;height:calc(100%)}.document-wrapper>.md-callout{margin-inline:calc(var(--md-indentation) + (var(--md-indentation) - 4px) * 0.5 + var(--nested-block-marker-skew))}.document-wrapper .md-callout>.md-callout-head{font-family:var(--document-headers-font)}.document-wrapper .md-callout>.md-callout-head:not(:last-child){margin-bottom:.5em}.document-wrapper .md-callout-head img{vertical-align:baseline;margin-right:.1em}.document-wrapper blockquote.md-callout-note{border-color:var(--document-callout-note-border-color);background-color:var(--document-callout-note-background-color)}.document-wrapper blockquote.md-callout-note:before{border:var(--document-hairline-width) solid var(--document-callout-note-border-color);background-color:var(--document-callout-note-bar-color)}.document-wrapper .md-callout-note>.md-callout-head{color:var(--markdown-view-highlighter-blue-text-color)}.document-wrapper .md-callout-note .md-callout-head>img,.document-wrapper blockquote.md-callout-caution .md-callout-head>img,.document-wrapper blockquote.md-callout-tip .md-callout-head>img,.document-wrapper blockquote.md-callout-warning .md-callout-head>img{margin-bottom:-2px}.document-wrapper blockquote.md-callout-tip{border-color:var(--document-callout-tip-border-color);background-color:var(--document-callout-tip-background-color)}.document-wrapper blockquote.md-callout-tip:before{border:var(--document-hairline-width) solid var(--document-callout-tip-border-color);background-color:var(--document-callout-tip-bar-color)}.document-wrapper blockquote.md-callout-important::before,.document-wrapper blockquote.md-callout-important:before{background-color:var(--document-callout-important-bar-color)}.document-wrapper blockquote.md-callout-tip>.md-callout-head{color:var(--markdown-view-highlighter-green-text-color)}.document-wrapper blockquote.md-callout-important{border-color:var(--document-callout-important-border-color);background-color:var(--document-callout-important-background-color);background-color:var(--document-callout-important-background-color);border-color:var(--document-callout-important-border-color)}.document-wrapper blockquote.md-callout-important:before{border:var(--document-hairline-width) solid var(--document-callout-important-border-color)}.document-wrapper blockquote.md-callout-important>.md-callout-head{color:var(--markdown-view-highlighter-purple-text-color)}.document-wrapper blockquote.md-callout-important .md-callout-head>img{margin-bottom:-4px}.document-wrapper blockquote.md-callout-warning{background-color:var(--document-callout-warning-background-color);border-color:var(--document-callout-warning-border-color)}.document-wrapper blockquote.md-callout-warning::before{background-color:var(--document-callout-warning-bar-color);background-color:var(--document-callout-caution-bar-color)}.document-wrapper blockquote.md-callout-warning>.md-callout-head{color:var(--markdown-view-highlighter-yellow-text-color)}.document-wrapper blockquote.md-callout-caution{background-color:var(--document-callout-caution-background-color);border-color:var(--document-callout-caution-border-color)}.document-wrapper blockquote.md-callout-caution>.md-callout-head{color:var(--markdown-view-highlighter-red-text-color)}
+
+        </style>
+    </head>
+    <body>
+        <div class="document-wrapper">
+            <!--
+  ProtoMKR MK2 Protogen Emote Simulator
+  A standalone open-source protogen face simulation tool.
+
+  Copyright (c) FallingMapleSJ (https://github.com/FallingMapleSJ)
+  All rights reserved.
+
+  You may use and modify this file for personal, small-scale commercial purposes (I’m fine if ur doing it and selling it for friend whatsoever. Please don’t do it on a large scale. It is supposed to be a tool for personal hobbyists, and it is kind of worrying if a professional has to use this to render their emotion. Just be nice and honest. Thx for that).
+  You may NOT redistribute, repost, or publish modified versions of this
+  file without clearly crediting the original author:
+    FallingMapleSJ — https://github.com/FallingMapleSJ
+
+Question:
+1. What if I don’t know how to use this?
+If you face any issues in the usage of this, or would like compatibility with other languages or displays (such as the MAX7219, WS2812B, or whatever, please email me at fallingmaplesj@gmail.com or at GitHub or at Reddit (u/FallingMapleSJ) I might not check often but if I see it I’ll do my best to help.
+
+2. Can I make remixes?
+Of course you can change or add any other functions you wish (some functions might be broken in this current version, lol) just please put the link of the original repository here. Or you can ask me to add it to the repository. As long as credit to the original and the remixer is given fully.
+
+3. Are there anything that is not allowed?
+Yes. I do NOT appreciate low-effort remixes, like changing the title a bit. Adding a function, making it look better, making more responsive buttons or whatever is fine.
+
+  Removing or altering this notice is not permitted.
+-->
+<!--
+A quick note:
+I made this because I am absolutely talentless at art, and don’t want to flash-reflash for every time I modify the image. It is really painful to convert PNG to BIN, transfer from iPad to PC, and flash on to the chip, just to see it fail. I really hope it’d be helpful for u guys. Send me pics of the result! I’d be really excited to know if I helped anyone.
+Thanks for your time in reading this, thanks for following the guidelines.
+From: FallingMapleSJ
+-->
+<br>
+<br>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Illusionary Dynamics — Protogen Simulator</title>
+<br>
+<style>
+  :root { --ec: #ffffff; }
+  *, *::before, *::after { box-sizing: border-box; margin:0; padding:0; }
+  html, body { height:100%; }
+  body {
+    background:#060606; color:#fff;
+    font-family:'Courier New',monospace;
+    display:flex; flex-direction:column; align-items:center;
+    padding:20px 12px 48px; gap:18px;
+    min-height:100%; overflow-x:hidden;
+  }
+
+  /* ── Header ── */
+  header { display:flex; flex-direction:column; align-items:center; gap:2px; }
+  .header-inner { display:flex; align-items:center; gap:12px; }
+  .id-logo { width:36px; height:36px; object-fit:contain; border-radius:4px; flex-shrink:0; }
+  .brand { font-size:8px; letter-spacing:6px; color:#1a1a1a; text-transform:uppercase; }
+  h1 { font-size:clamp(13px,3vw,18px); letter-spacing:3px; text-transform:uppercase; }
+
+  /* ── Panels ── */
+  .panels { display:flex; gap:4px; flex-wrap:wrap; justify-content:center; }
+  .panel-wrap { display:flex; flex-direction:column; align-items:center; gap:4px; }
+  .panel-label { font-size:8px; letter-spacing:3px; color:#181818; }
+  .bezel {
+    background:#030303; border:1px solid #111; border-radius:5px;
+    padding:8px 10px; position:relative;
+    box-shadow:0 0 0 1px #080808, 0 0 50px rgba(0,0,0,0.97),
+               inset 0 0 18px rgba(0,0,0,0.85);
+  }
+  .bezel::before {
+    content:''; position:absolute; inset:0; border-radius:5px;
+    background:linear-gradient(135deg,rgba(255,255,255,0.016) 0%,transparent 50%);
+    pointer-events:none;
+  }
+
+  /* ── Controls ── */
+  .controls {
+    display:flex; flex-direction:column; gap:12px;
+    width:100%; max-width:680px;
+  }
+  .section-label { font-size:8px; letter-spacing:4px; color:#1c1c1c; text-transform:uppercase; }
+
+  /* ── Emote buttons ── */
+  .emote-row { display:flex; gap:6px; flex-wrap:wrap; }
+  .emote-btn {
+    flex:1; min-width:72px; max-width:110px;
+    background:#0c0c0c; border:1px solid #191919; color:#444;
+    font-family:'Courier New',monospace; font-size:9px; letter-spacing:1px;
+    padding:7px 5px; cursor:pointer; border-radius:3px;
+    transition:all 0.12s; text-transform:uppercase;
+    display:flex; flex-direction:column; align-items:center; gap:4px;
+    position:relative;
+  }
+  .emote-btn:hover { border-color:#2e2e2e; color:#888; }
+  .emote-btn.active { border-color:var(--ec); color:var(--ec); background:rgba(255,255,255,0.03); }
+  .emote-btn canvas { border:1px solid #1a1a1a; border-radius:1px; image-rendering:pixelated; }
+  .emote-del {
+    position:absolute; top:3px; right:4px;
+    background:none; border:none; color:#2a2a2a;
+    font-size:10px; cursor:pointer; line-height:1;
+    font-family:'Courier New',monospace; transition:color 0.1s;
+  }
+  .emote-del:hover { color:#833; }
+
+  /* ── Upload ── */
+  .upload-zone {
+    border:1px dashed #1e1e1e; border-radius:4px; padding:12px 14px;
+    display:flex; flex-direction:column; gap:8px;
+    cursor:pointer; transition:border-color 0.15s; position:relative;
+  }
+  .upload-zone:hover { border-color:#333; }
+  .upload-zone.drag { border-color:var(--ec); background:rgba(255,255,255,0.015); }
+  .upload-zone input[type=file] { position:absolute; inset:0; opacity:0; cursor:pointer; }
+  .upload-hint { font-size:9px; color:#222; letter-spacing:2px; pointer-events:none; }
+  .upload-hint span { color:#333; }
+  .upload-row { display:flex; gap:8px; align-items:center; pointer-events:none; }
+  .upload-name {
+    flex:1; background:#0a0a0a; border:1px solid #181818; border-radius:3px;
+    color:#555; font-family:'Courier New',monospace; font-size:10px;
+    padding:6px 10px; outline:none; pointer-events:all;
+  }
+  .upload-name:focus { border-color:#2a2a2a; }
+  .upload-name::placeholder { color:#222; }
+
+  /* ── Sliders ── */
+  .row { display:flex; gap:8px; align-items:center; }
+  .lbl { font-size:9px; letter-spacing:2px; color:#222; min-width:110px; flex-shrink:0; }
+  input[type=range] { flex:1; height:2px; cursor:pointer; min-width:0; }
+  .val { font-size:10px; color:#383838; min-width:38px; text-align:right; flex-shrink:0; }
+
+  /* ── Color swatches ── */
+  .color-row { display:flex; gap:6px; flex-wrap:wrap; align-items:center; }
+  .swatch {
+    width:44px; height:44px; border-radius:5px;
+    border:2px solid #222; cursor:pointer; transition:border-color 0.15s, transform 0.1s;
+    flex-shrink:0; display:inline-block;
+    -webkit-appearance:none; -moz-appearance:none; appearance:none;
+    outline:none; padding:0; margin:0;
+  }
+  .swatch:hover { border-color:#555; transform:scale(1.08); }
+  .swatch.active { border-color:#fff !important; box-shadow:0 0 10px rgba(255,255,255,0.35); }
+  .swatch-rainbow {
+    width:44px; height:44px; border-radius:5px;
+    border:2px solid #222; cursor:pointer; transition:border-color 0.15s, transform 0.1s;
+    background:linear-gradient(90deg,#f00,#ff0,#0f0,#0ff,#00f,#f0f,#f00);
+    flex-shrink:0; display:inline-block;
+    -webkit-appearance:none; -moz-appearance:none; appearance:none;
+    outline:none; padding:0; margin:0;
+  }
+  .swatch-rainbow:hover { border-color:#555; transform:scale(1.05); }
+  .swatch-rainbow.active { border-color:#fff !important; box-shadow:0 0 10px rgba(255,255,255,0.35); }
+
+  /* ── Buttons ── */
+  .action-row { display:flex; gap:6px; flex-wrap:wrap; }
+  .btn {
+    background:#0c0c0c; border:1px solid #191919; color:#444;
+    font-family:'Courier New',monospace; font-size:10px; letter-spacing:2px;
+    padding:9px 12px; cursor:pointer; border-radius:3px;
+    transition:all 0.12s; text-transform:uppercase; white-space:nowrap;
+  }
+  .btn:hover { border-color:#333; color:#aaa; }
+  .btn:active { transform:scale(0.97); }
+  .btn.on { border-color:var(--ec); color:var(--ec); }
+
+  hr { border:none; border-top:1px solid #0e0e0e; width:100%; }
+  .status { font-size:9px; color:#1c1c1c; letter-spacing:3px; text-align:center; }
+  .status span { color:#383838; }
+
+  /* ── Zone output ── */
+  .zone-out {
+    font-size:10px; color:#2a2a2a; letter-spacing:0px; padding:4px 2px;
+    word-break:break-all; line-height:1.5; font-family:'Courier New',monospace;
+  }
+
+  /* ── Responsive ── */
+  @media (max-width:480px){
+    .lbl { min-width:80px; font-size:8px; }
+    .btn { font-size:9px; padding:8px 9px; letter-spacing:1px; }
+    h1 { font-size:13px; letter-spacing:2px; }
+    .emote-btn { min-width:60px; }
+  }
+</style></p><br>
+<br>
+</head>
+<body>
+<header>
+  <div class="header-inner">
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAEKklEQVR4nO2YPUgrWxDH/+ecTYyu4dpEwUZQiKAWFjZ+IAmJIoiFaOcHWoitFiqWCpJYRNBOCDbBEAQLm2AnWAgWiqKVYmHlB4gaCZrNZudVuyS6a9arj/t43IFl4TAz+zszZ84MywAQ/kPC/zTAe/kLVEx+DIgxBsbYt/38CBBjDEQEIgLnHJIk/Tbct4D0qBARKisrUVpaCk3ToKoqiAhCiC+DSd+B4Zwjl8thfX0dXq8Xb29veH19xdHRERKJBK6urgAAnHNomvbvAeXDxGIxZDIZ9PT0QJZl1NfXo6urCxsbGzg7O8Pc3BzS6TSEEMjlcrb801cexhgJIQgAJRIJikajpnoul4sWFxfp5OSEGhsbCYBhV+T5PowkScQYI8YYcc5JkiTDpru7my4vLw0ozvnPAOXDxOPxDzBmNk6nkwBQIBCg09NTcrvdJISw1LcNpO8cAMViMYrFYkVh3kMtLi7S2tqandTZj0w0GiVFUaijo6Ng3Y690+mkw8NDqqmpMdbN9D+9h/KraWdnB4+Pj4hEIqitrQVR4ZDAubkrIgJjDIqiYHd3FyMjIwAAIYSpviWQfunlcjlsb2/j5eUFMzMzkGX5w51S7J7RNA2MMSSTSbS0tBhrtoF0GE3TDJjh4WFwzsE5L4iODlNXV2cJpLeVi4sLyLKMkpISA9I2EBFhc3MT6XQaY2NjhpN8GEmSoGkalpaWEAqFjDUzIABIpVLQNA2/fv2yhP8ApEdGlmUcHx9jdHTUNCWcc2QyGczOzmJychLPz8+WH8n3nQ9oC0hXTqfTiEQiBmC+EyEENE1DKBRCa2srBgYG4HK5LD+mg1RUVIAxhqenJ0tdy0OtjxJm1XRzc4Pp6Wl0dnaiv78fRASHw2G5a/1MNjQ0IJVKIZvNWlbZp83VLE0PDw8IhUK4vr6Gz+cDALhcrk+rjHMOVVXR19eHg4MDA/LLQGZOq6qqkM1mMTg4WHA1WIleIG63G36/H729vQBgaWNrQOOcQ1EU1NfXY2trC8Fg0DKl78XhcCCXyyEcDiOZTOLu7g5CCEu7ohGSJAmqqmJlZQWcc0xNTRXcU1bCGIMkSVAUBUNDQ2hubobP5zMK4jOx7EP6GLG8vEz7+/tUXl5OkiQZjVZ/BwIBisfjxBgjp9NZMH6Mj4/T+fk5VVdX2xo/LCMkhICqqlheXkZbWxv8fj9UVTXORMGOiIw5WlEUAEB1dTUWFhbg9XoRDAZxe3tra5Q1BdIbajgcRnt7O3w+H1RV/eBQr5TS0lJ4PB54vV4jNU1NTUgmk5iYmDB82pmrPwDpZ6OsrAyyLCMQCJjC5Mv9/T08Hg9WV1dxf3+Pvb09zM/P4/n52YC2O+QzwPxnQz6AWZrsyFcG+6JAOgjwee95r6+X9Pt28yNAf0L+vz8bfkr+AhWTfwDhNa7Um1ve4QAAAABJRU5ErkJggg==" class="id-logo" alt="Illusionary Dynamics">
+    <div>
+      <div class="brand">Illusionary Dynamics</div>
+      <h1>PROTOGEN SIMULATOR</h1>
+    </div>
+  </div>
+</header>
+<br>
+<div class="panels">
+  <div class="panel-wrap">
+    <div class="panel-label">◀ LEFT</div>
+    <div class="bezel"><canvas id="cL"></canvas></div>
+  </div>
+  <div class="panel-wrap">
+    <div class="panel-label">RIGHT ▶</div>
+    <div class="bezel"><canvas id="cR"></canvas></div>
+  </div>
+</div>
+<br>
+<div class="controls">
+<br>
+  <!-- Expressions -->
+<br>
+  <div>
+    <div class="section-label" style="margin-bottom:8px">Expressions</div>
+    <div class="emote-row" id="emoteRow"></div>
+  </div>
+<br>
+  <!-- Upload -->
+<br>
+  <div>
+    <div class="section-label" style="margin-bottom:8px">Upload Expression</div>
+    <div class="upload-zone" id="dropZone">
+      <input type="file" id="fileInput" accept=".png,.jpg,.bmp">
+      <div class="upload-hint">Drop a <span>64×32 PNG</span> or tap to browse</div>
+      <div class="upload-row">
+        <input class="upload-name" id="emoteName" type="text" placeholder="Expression name" maxlength="20">
+        <button class="btn" id="btnAdd" style="pointer-events:all">ADD</button>
+      </div>
+    </div>
+  </div>
+<br>
+  <hr>
+<br>
+  <!-- Color -->
+<br>
+  <div class="section-label" style="margin-bottom:8px">Eye Color</div>
+  <div class="color-row" style="padding:4px 0;">
+    <button class="swatch active" data-color="WHITE"  title="White"  style="background:#ffffff;" onclick="pickColor('WHITE')"></button>
+    <button class="swatch"        data-color="CYAN"   title="Cyan"   style="background:#00ffff;" onclick="pickColor('CYAN')"></button>
+    <button class="swatch"        data-color="RED"    title="Red"    style="background:#ff2020;" onclick="pickColor('RED')"></button>
+    <button class="swatch"        data-color="GREEN"  title="Green"  style="background:#00ff44;" onclick="pickColor('GREEN')"></button>
+    <button class="swatch"        data-color="BLUE"   title="Blue"   style="background:#2060ff;" onclick="pickColor('BLUE')"></button>
+    <button class="swatch"        data-color="PURPLE" title="Purple" style="background:#cc44ff;" onclick="pickColor('PURPLE')"></button>
+    <button class="swatch"        data-color="ORANGE" title="Orange" style="background:#ff8800;" onclick="pickColor('ORANGE')"></button>
+    <button class="swatch-rainbow" title="Rainbow" onclick="pickRainbow()"></button>
+  </div>
+<br>
+  <hr>
+<br>
+  <!-- Eye Zone -->
+<br>
+  <div class="section-label">Eye Zone</div>
+  <div class="row">
+    <span class="lbl">EYE X0</span>
+    <input type="range" id="sl_ex0" min="0" max="63" step="1" value="36">
+    <span class="val" id="sv_ex0">36</span>
+  </div>
+  <div class="row">
+    <span class="lbl">EYE X1</span>
+    <input type="range" id="sl_ex1" min="0" max="63" step="1" value="61">
+    <span class="val" id="sv_ex1">61</span>
+  </div>
+  <div class="row">
+    <span class="lbl">EYE Y0</span>
+    <input type="range" id="sl_ey0" min="0" max="31" step="1" value="2">
+    <span class="val" id="sv_ey0">2</span>
+  </div>
+  <div class="row">
+    <span class="lbl">EYE Y1</span>
+    <input type="range" id="sl_ey1" min="0" max="31" step="1" value="13">
+    <span class="val" id="sv_ey1">13</span>
+  </div>
+  <div class="action-row">
+    <button class="btn on" id="btnShowZone">SHOW ZONE: ON</button>
+    <button class="btn" id="btnCopyZone">COPY C++ VALUES</button>
+  </div>
+  <div class="zone-out" id="zoneOut"></div>
+<br>
+  <hr>
+<br>
+  <!-- Animation -->
+<br>
+  <div class="section-label">Animation</div>
+  <div class="row">
+    <span class="lbl">BREATH AMP</span>
+    <input type="range" id="sl_bAmp" min="0" max="6" step="0.1" value="0.4">
+    <span class="val" id="sv_bAmp">0.4</span>
+  </div>
+  <div class="row">
+    <span class="lbl">BREATH SPEED</span>
+    <input type="range" id="sl_bSpd" min="0.1" max="3" step="0.05" value="0.45">
+    <span class="val" id="sv_bSpd">0.45</span>
+  </div>
+  <div class="row">
+    <span class="lbl">BLINK SPEED</span>
+    <input type="range" id="sl_blSpd" min="0.005" max="0.06" step="0.001" value="0.013">
+    <span class="val" id="sv_blSpd">0.013</span>
+  </div>
+  <div class="row">
+    <span class="lbl">BLINK INTERVAL</span>
+    <input type="range" id="sl_blInt" min="1000" max="10000" step="100" value="4000">
+    <span class="val" id="sv_blInt">4.0s</span>
+  </div>
+  <div class="row">
+    <span class="lbl">MORPH SPEED</span>
+    <input type="range" id="sl_morph" min="0.001" max="0.025" step="0.001" value="0.007">
+    <span class="val" id="sv_morph">0.007</span>
+  </div>
+<br>
+  <hr>
+<br>
+  <!-- Actions -->
+<br>
+  <div class="action-row">
+    <button class="btn" id="btnBlink">BLINK</button>
+    <button class="btn on" id="btnAutoBlink">AUTO BLINK: ON</button>
+    <button class="btn on" id="btnEyelid">EYELID: ON</button>
+    <button class="btn" id="btnEyeMorph">EYE MORPH: OFF</button>
+    <button class="btn" id="btnMic">MIC VIZ: OFF</button>
+  </div>
+  <div class="status">EMOTE: <span id="sEmote">—</span> &nbsp;|&nbsp; STATE: <span id="sState">LOADING</span></div>
+<br>
+</div>
+<br>
+<script>
+// ═══════════════════════════════════════════════════════
+//  PANEL CONFIG
+// ═══════════════════════════════════════════════════════
+const PW=64,PH=32,PS=9,PG=1;
+const CW=PW*(PS+PG)-PG, CH=PH*(PS+PG)-PG;
+const cL=document.getElementById('cL');
+const cR=document.getElementById('cR');
+[cL,cR].forEach(c=>{c.width=CW;c.height=CH;});
+const gL=cL.getContext('2d');
+const gR=cR.getContext('2d');
+const dc=document.createElement('canvas');dc.width=PW;dc.height=PH;
+const dctx=dc.getContext('2d');
+
+// ═══════════════════════════════════════════════════════
+//  REGIONS
+//  Nose:  x 0–15,  y 8–15
+//  Eye:   detected per emote (right half, top half)
+//  Mouth: y 16–31 (full width)
+//  Glitch region: nose + mouth (everything except eye)
+// ═══════════════════════════════════════════════════════
+const NOSE_X0=0, NOSE_X1=15, NOSE_Y0=8,  NOSE_Y1=15;
+const MOUTH_Y0=16, MOUTH_Y1=31;
+
+// ═══════════════════════════════════════════════════════
+//  COLORS
+// ═══════════════════════════════════════════════════════
+const COLORS=[
+  {name:'WHITE', hex:'#ffffff',r:255,g:255,b:255},
+  {name:'CYAN',  hex:'#00ffff',r:0,  g:255,b:255},
+  {name:'RED',   hex:'#ff2020',r:255,g:32, b:32 },
+  {name:'GREEN', hex:'#00ff44',r:0,  g:255,b:68 },
+  {name:'BLUE',  hex:'#2060ff',r:32, g:96, b:255},
+  {name:'PURPLE',hex:'#cc44ff',r:204,g:68, b:255},
+  {name:'ORANGE',hex:'#ff8800',r:255,g:136,b:0  },
+];
+let ec=COLORS[0];
+
+// ═══════════════════════════════════════════════════════
+//  EMOTE STORE
+// ═══════════════════════════════════════════════════════
+const emotes=[];
+let activeIdx=0;
+
+const BUILT_IN=[
+  {name:"Happy", src:"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAAAgCAYAAACinX6EAAABWGlDQ1BJQ0MgUHJvZmlsZQAAeJx9kLFLw1AQxr9WpaB1EB0cHDKJQ5SSCro4tBVEcQhVweqUvqapkMZHkiIFN/+Bgv+BCs5uFoc6OjgIopPo5uSk4KLleS+JpCJ6j+N+fO+74zggOW5wbvcDqDu+W1zKK5ulLSX1jAS9IAzm8Zyur0r+rj/j/T703k7LWb///43Biukxqp+UGcZdH0ioxPqezyXvE4+5tBRxS7IV8onkcsjngWe9WCC+JlZYzagQvxCr5R7d6uG63WDRDnL7tOlsrMk5lBNYxA48cNgw0IQCHdk//LOBv4BdcjfhUp+FGnzqyZEiJ5jEy3DAMAOVWEOGUpN3ju53F91PjbWDJ2ChI4S4iLWVDnA2Rydrx9rUPDAyBFy1ueEagdRHmaxWgddTYLgEjN5Qz7ZXzWrh9uk8MPAoxNskkDoEui0hPo6E6B5T8wNw6XwBA6diE8HYWhMAAAImSURBVHic7ZixiupAFIaPUdmAhUFSamcj6ENYKViIjSK26ktYayliK5biI4ilgg8hCNaCBBWDkInz30IM2avueo2b2Vz94EBIJsf//DMxc+IjItALI4kWIJq3AaIFiMazBsiyTKZpEoAvgzFGqqrezOMjj/0JHg4HkmX5oXt9Pt/FOc+sAE3TCMDDxd/CEwYAIEVRHOeZTqcX5361AY1Gg4DTE3pt+do5j/uKdrt9/d5zAIBpmrBzPB5hH+NWVCoVXGOz2UBRlLvzFItFHI9HDIfDW2NOB7VaDbquI5VKIRKJQJIkEBGi0ajrxUuSdFH4D/7e6WC5XGIwGAiZ7b8jFou5UTiICNZrkHNOqqqSpmn0SlgGACC/30+cc8GS3OXTW+DViieyGTCZTETqEIbntsLP5ldvhNzgbYBoAaJ5GyBawCP0ej3inFsfPUqlkqN8wre+90S/37e2x/v9HvF43LoGAK1Wy1kv8MwIhUKYz+dYr9fodrsP58nlclbR2+0Wo9EIhmFcNEqccwBAMpkUa8But7NEdTodFAoF6Lr+SaxhGFgsFshms3flsbNarZDP561O9RzpdNpJ4+Ss6EAgYAmczWbfjs9kMhiPxxczeZ5FAGCMgTGGarX69NX5VAPOlMtlx0ISiQSCwaAbBTs3gDEGAGg2myIEPzUC9I8AIMMwvv1G5xXu3gfU63UCQOFwmD4+Pn5Sk6vc3Q0C+G9m3c7Lt8N/AK+OkOonvmg7AAAAAElFTkSuQmCC"},
+];
+
+// ═══════════════════════════════════════════════════════
+//  ANIMATION STATE
+// ═══════════════════════════════════════════════════════
+let blinkSt=0, blinking=false, blinkPhase=0;
+let blinkTimer=0, nextBlink=4000;
+let breathT=0, breathY=0;
+
+// Transition
+let transState='IDLE'; // IDLE | BLINK_CLOSE | BLINK_OPEN
+let pendingIdx=-1;
+let oldBitmap=null;   // mouth bitmap before swap
+let morphT=1.0;       // 0=fully old, 1=fully new
+let morphSpeed=0.007; // lerp speed per ms
+let eyeMorphOn=false; // whether eye also uses fluid transition
+let showEyeZone=true;
+let rainbowOn=false;
+let rainbowHue=0;
+let oldEmote=null;    // full emote before swap (for eye morph)
+
+// Settings
+let breathAmp=0.4, breathSpeed=0.45, blinkSpeed=0.013, blinkInterval=4000;
+let autoBlink=true, showEyelid=true;
+
+let lastMs=performance.now();
+
+const bufL=Array.from({length:PW*PH},()=>[0,0,0,0]);
+const bufR=Array.from({length:PW*PH},()=>[0,0,0,0]);
+
+const clamp=(v,lo,hi)=>Math.max(lo,Math.min(hi,v));
+
+// ═══════════════════════════════════════════════════════
+//  LOAD BITMAP FROM IMAGE
+// ═══════════════════════════════════════════════════════
+function imgToBitmap(img){
+  dctx.clearRect(0,0,PW,PH);
+  dctx.drawImage(img,0,0,PW,PH);
+  const data=dctx.getImageData(0,0,PW,PH).data;
+  const bm=new Float32Array(PW*PH);
+  for(let p=0;p<PW*PH;p++){
+    const lum=(data[p*4]*0.299+data[p*4+1]*0.587+data[p*4+2]*0.114)*(data[p*4+3]/255);
+    bm[p]=lum>25?lum/255:0;
+  }
+  return bm;
+}
+
+function detectEye(bm){
+  let x0=PW,x1=0,y0=PH,y1=0,found=false;
+  for(let y=0;y<16;y++) for(let x=20;x<PW;x++){
+    if(bm[y*PW+x]>0.1){x0=Math.min(x0,x);x1=Math.max(x1,x);y0=Math.min(y0,y);y1=Math.max(y1,y);found=true;}
+  }
+  if(!found) return {eyeX0:36,eyeX1:58,eyeY0:3,eyeY1:13};
+  return {eyeX0:Math.max(0,x0-1),eyeX1:Math.min(PW-1,x1+1),eyeY0:Math.max(0,y0-1),eyeY1:Math.min(PH-1,y1+2)};
+}
+
+function addEmote(name,bitmap){
+  const eye=detectEye(bitmap);
+  const preview=makePreview(bitmap);
+  emotes.push({name,bitmap,preview,...eye});
+  renderEmoteButtons();
+}
+
+function makePreview(bitmap){
+  const pc=document.createElement('canvas');
+  pc.width=PW;pc.height=PH;
+  const ctx=pc.getContext('2d');
+  ctx.fillStyle='#080808';ctx.fillRect(0,0,PW,PH);
+  const {r,g,b}=ec;
+  for(let y=0;y<PH;y++) for(let x=0;x<PW;x++){
+    const v=bitmap[y*PW+x];
+    if(v>0.1){ctx.fillStyle=`rgba(${r},${g},${b},${v})`;ctx.fillRect(x,y,1,1);}
+  }
+  return pc.toDataURL();
+}
+
+function refreshPreviews(){
+  for(const e of emotes) e.preview=makePreview(e.bitmap);
+  renderEmoteButtons();
+}
+
+// ═══════════════════════════════════════════════════════
+//  PIXEL OPS
+// ═══════════════════════════════════════════════════════
+function clrBufs(){
+  for(let i=0;i<PW*PH;i++){bufL[i][3]=0;bufR[i][3]=0;}
+}
+
+function sp(x,y,r,g,b,br){
+  x=Math.round(x);y=Math.round(y);
+  if(x<0||x>=PW||y<0||y>=PH)return;
+  const v=clamp(br,0,1),i=y*PW+x;
+  if(v>bufL[i][3]){bufL[i][0]=r;bufL[i][1]=g;bufL[i][2]=b;bufL[i][3]=v;}
+  const mx=PW-1-x,mi=y*PW+mx;
+  if(v>bufR[mi][3]){bufR[mi][0]=r;bufR[mi][1]=g;bufR[mi][2]=b;bufR[mi][3]=v;}
+}
+
+function bitmapPx(bm,x,y){
+  if(x<0||x>=PW||y<0||y>=PH)return 0;
+  return bm[y*PW+x];
+}
+
+// ═══════════════════════════════════════════════════════
+//  DRAW REGIONS
+// ═══════════════════════════════════════════════════════
+function drawNose(bm){
+  const {r,g,b}=ec;
+  for(let y=NOSE_Y0;y<=NOSE_Y1;y++)
+    for(let x=NOSE_X0;x<=NOSE_X1;x++){
+      const v=bitmapPx(bm,x,y);
+      if(v>0.01) sp(x,y,r,g,b,v);
+    }
+}
+
+function drawEye(emote){
+  const {r,g,b}=ec;
+  const {bitmap,eyeX0,eyeX1,eyeY0,eyeY1}=emote;
+  for(let y=eyeY0;y<=eyeY1;y++){
+    for(let x=eyeX0;x<=eyeX1;x++){
+      const srcY=y-breathY;
+      const y0=Math.floor(srcY),y1=y0+1,frac=srcY-y0;
+      const v=bitmapPx(bitmap,x,y0)*(1-frac)+bitmapPx(bitmap,x,y1)*frac;
+      if(v>0.01) sp(x,y,r,g,b,v);
+    }
+  }
+}
+
+// Eye morph — same column-span flow as mouth but over eye region
+function drawEyeMorph(eOld, eNew, t){
+  const {r,g,b}=ec;
+  const ease=t<0.5 ? 4*t*t*t : 1-Math.pow(-2*t+2,3)/2;
+
+  // Use the new emote's eye region bounds
+  const {eyeX0,eyeX1,eyeY0,eyeY1}=eNew;
+  const bmOld=eOld.bitmap, bmNew=eNew.bitmap;
+
+  for(let x=eyeX0;x<=eyeX1;x++){
+    let oTop=-1,oBot=-1;
+    for(let y=eyeY0;y<=eyeY1;y++){
+      if(bitmapPx(bmOld,x,y)>0.08){if(oTop<0)oTop=y;oBot=y;}
+    }
+    let nTop=-1,nBot=-1;
+    for(let y=eyeY0;y<=eyeY1;y++){
+      if(bitmapPx(bmNew,x,y)>0.08){if(nTop<0)nTop=y;nBot=y;}
+    }
+
+    if(oTop<0&&nTop<0) continue;
+    const mCy=(eyeY0+eyeY1)/2;
+    if(oTop<0){oTop=mCy;oBot=mCy;}
+    if(nTop<0){nTop=mCy;nBot=mCy;}
+
+    const curTop=oTop+(nTop-oTop)*ease;
+    const curBot=oBot+(nBot-oBot)*ease;
+    if(curBot<curTop) continue;
+
+    for(let y=eyeY0;y<=eyeY1;y++){
+      if(y<Math.round(curTop)||y>Math.round(curBot)) continue;
+      const norm=(curBot>curTop)?(y-curTop)/(curBot-curTop):0.5;
+      const oldY=oTop+norm*(oBot-oTop);
+      const newY=nTop+norm*(nBot-nTop);
+      const oy0=Math.floor(oldY),of=oldY-oy0;
+      const ny0=Math.floor(newY),nf=newY-ny0;
+      const vOld=bitmapPx(bmOld,x,oy0)*(1-of)+bitmapPx(bmOld,x,oy0+1)*of;
+      const vNew=bitmapPx(bmNew,x,ny0)*(1-nf)+bitmapPx(bmNew,x,ny0+1)*nf;
+      // Also apply breathing offset
+      const srcY=(y-breathY);
+      const sy0=Math.floor(srcY);
+      const vFinal=vOld*(1-ease)+vNew*ease;
+      if(vFinal>0.02) sp(x,y,r,g,b,vFinal);
+    }
+  }
+}
+
+function drawMouth(bm){
+  const {r,g,b}=ec;
+  for(let y=MOUTH_Y0;y<=MOUTH_Y1;y++)
+    for(let x=0;x<PW;x++){
+      const v=bitmapPx(bm,x,y);
+      if(v>0.01) sp(x,y,r,g,b,v);
+    }
+}
+
+// ═══════════════════════════════════════════════════════
+//  FLUID MOUTH MORPH — direct pixel flow
+//  morphT is a raw linear 0→1 progress value.
+//  We apply cubic ease-in-out internally so the motion
+//  accelerates from rest, peaks in the middle, and
+//  decelerates smoothly to a stop — no bounce needed.
+// ═══════════════════════════════════════════════════════
+function drawMouthMorph(bmOld, bmNew, t){
+  const {r,g,b}=ec;
+
+  // Cubic ease-in-out: slow start, fast middle, slow end
+  const ease=t<0.5 ? 4*t*t*t : 1-Math.pow(-2*t+2,3)/2;
+
+  for(let x=0;x<PW;x++){
+    let oTop=-1,oBot=-1;
+    for(let y=MOUTH_Y0;y<=MOUTH_Y1;y++){
+      if(bitmapPx(bmOld,x,y)>0.08){if(oTop<0)oTop=y;oBot=y;}
+    }
+    let nTop=-1,nBot=-1;
+    for(let y=MOUTH_Y0;y<=MOUTH_Y1;y++){
+      if(bitmapPx(bmNew,x,y)>0.08){if(nTop<0)nTop=y;nBot=y;}
+    }
+
+    if(oTop<0&&nTop<0) continue;
+    const mCy=(MOUTH_Y0+MOUTH_Y1)/2;
+    if(oTop<0){oTop=mCy;oBot=mCy;}
+    if(nTop<0){nTop=mCy;nBot=mCy;}
+
+    const curTop=oTop+(nTop-oTop)*ease;
+    const curBot=oBot+(nBot-oBot)*ease;
+    if(curBot<curTop) continue;
+
+    for(let y=MOUTH_Y0;y<=MOUTH_Y1;y++){
+      if(y<Math.round(curTop)||y>Math.round(curBot)) continue;
+
+      const norm=(curBot>curTop)?(y-curTop)/(curBot-curTop):0.5;
+      const oldY=oTop+norm*(oBot-oTop);
+      const newY=nTop+norm*(nBot-nTop);
+
+      const oy0=Math.floor(oldY),of=oldY-oy0;
+      const ny0=Math.floor(newY),nf=newY-ny0;
+
+      const vOld=bitmapPx(bmOld,x,oy0)*(1-of)+bitmapPx(bmOld,x,oy0+1)*of;
+      const vNew=bitmapPx(bmNew,x,ny0)*(1-nf)+bitmapPx(bmNew,x,ny0+1)*nf;
+
+      const v=vOld*(1-ease)+vNew*ease;
+      if(v>0.02) sp(x,y,r,g,b,v);
+    }
+  }
+}
+
+// ═══════════════════════════════════════════════════════
+//  MIC VISUALIZER
+//  Vertical bars in mouth region driven by FFT
+// ═══════════════════════════════════════════════════════
+let micOn=false;
+let audioCtx=null, analyser=null, freqData=null;
+let micStream=null;
+// Smoothed bar heights (one per pixel column 0–63)
+const barHeights=new Float32Array(PW).fill(0);
+
+async function toggleMic(){
+  const btn=document.getElementById('btnMic');
+  if(micOn){
+    // Turn off
+    micOn=false;
+    if(micStream) micStream.getTracks().forEach(t=>t.stop());
+    if(audioCtx) audioCtx.close();
+    audioCtx=null;analyser=null;freqData=null;micStream=null;
+    barHeights.fill(0);
+    btn.textContent='MIC VIZ: OFF';btn.classList.remove('on');
+    return;
+  }
+  try{
+    micStream=await navigator.mediaDevices.getUserMedia({audio:true,video:false});
+    audioCtx=new (window.AudioContext||window.webkitAudioContext)();
+    analyser=audioCtx.createAnalyser();
+    analyser.fftSize=128;        // 64 frequency bins
+    analyser.smoothingTimeConstant=0.75;
+    freqData=new Uint8Array(analyser.frequencyBinCount); // 64 bins
+    const src=audioCtx.createMediaStreamSource(micStream);
+    src.connect(analyser);
+    micOn=true;
+    btn.textContent='MIC VIZ: ON';btn.classList.add('on');
+  } catch(e){
+    alert('Microphone access denied or unavailable.');
+  }
+}
+
+function updateMicBars(){
+  if(!micOn||!analyser)return;
+  analyser.getByteFrequencyData(freqData); // 64 bins, 0–255
+
+  const mouthH=MOUTH_Y1-MOUTH_Y0; // 15 rows of height available
+
+  // Map 64 FFT bins → 64 pixel columns
+  // Use only lower 40 bins (more musical, less hiss)
+  const useBins=40;
+  for(let x=0;x<PW;x++){
+    const binIdx=Math.floor((x/PW)*useBins);
+    const raw=freqData[binIdx]/255; // 0–1
+    // Smooth toward target
+    barHeights[x]+=(raw-barHeights[x])*0.35;
+  }
+}
+
+function drawMicBars(){
+  if(!micOn)return;
+  const {r,g,b}=ec;
+  const mouthH=MOUTH_Y1-MOUTH_Y0; // 15
+
+  for(let x=0;x<PW;x++){
+    const barH=Math.round(barHeights[x]*mouthH);
+    if(barH<1)continue;
+    for(let h=0;h<barH;h++){
+      const y=MOUTH_Y1-h;              // bars grow upward from bottom of mouth
+      if(y<MOUTH_Y0)break;
+      // Brightness tapers toward top of bar
+      const bright=0.5+0.5*(h/Math.max(barH,1));
+      sp(x,y,r,g,b,bright);
+    }
+  }
+}
+
+// ═══════════════════════════════════════════════════════
+//  BLINK LID
+// ═══════════════════════════════════════════════════════
+function drawBlinkLid(emote){
+  if(blinkSt<=0.001)return;
+  const {r,g,b}=ec;
+  const {eyeX0,eyeX1,eyeY0,eyeY1}=emote;
+  const lidY=Math.min(eyeY0+Math.round(blinkSt*(eyeY1-eyeY0)),eyeY1-1);
+  for(let y=eyeY0;y<=lidY;y++){
+    for(let x=eyeX0;x<=eyeX1;x++){
+      const i=y*PW+x;bufL[i][3]=0;
+      bufR[y*PW+(PW-1-x)][3]=0;
+    }
+    if(y===lidY&&showEyelid){
+      for(let x=eyeX0;x<=eyeX1;x++){
+        const t=(x-eyeX0)/(eyeX1-eyeX0);
+        sp(x,y,r,g,b,0.7+0.3*Math.sin(t*Math.PI));
+      }
+    }
+  }
+}
+
+// ═══════════════════════════════════════════════════════
+//  BLINK + TRANSITION ENGINE
+// ═══════════════════════════════════════════════════════
+function triggerBlink(){
+  if(blinking||transState!=='IDLE')return;
+  blinking=true;blinkPhase=0;blinkSt=0;
+}
+
+function requestTransition(idx){
+  if(idx===activeIdx&&transState==='IDLE')return;
+  pendingIdx=idx;
+  if(transState==='IDLE'){
+    if(eyeMorphOn){
+      // No blink — swap instantly and let morph handle both eye and mouth
+      oldBitmap=emotes[activeIdx].bitmap;
+      oldEmote=emotes[activeIdx];
+      morphT=0.0;
+      activeIdx=pendingIdx;
+      pendingIdx=-1;
+      document.getElementById('sEmote').textContent=emotes[activeIdx].name.toUpperCase();
+      document.getElementById('sState').textContent='MORPHING';
+      updateEmoteButtons();
+      // State returns to IDLE once morphT reaches 1 in main loop
+    } else {
+      // Normal blink transition
+      transState='BLINK_CLOSE';
+      blinking=true;blinkPhase=0;blinkSt=0;
+      document.getElementById('sState').textContent='CLOSING';
+    }
+  }
+}
+
+function updateBlink(dt){
+  if(autoBlink&&transState==='IDLE'){
+    blinkTimer+=dt;
+    if(!blinking&&blinkTimer>=nextBlink){
+      blinkTimer=0;
+      nextBlink=blinkInterval+(Math.random()-0.5)*blinkInterval*0.3;
+      triggerBlink();
+    }
+  }
+  if(!blinking)return;
+
+  if(blinkPhase===0){
+    blinkSt+=blinkSpeed*dt;
+    if(blinkSt>=1){
+      blinkSt=1;blinkPhase=1;
+      if(transState==='BLINK_CLOSE'){
+        // Eye fully closed — save old mouth, swap, start morph
+        oldBitmap=emotes[activeIdx].bitmap;
+        oldEmote=emotes[activeIdx];
+        morphT=0.0;
+
+        activeIdx=pendingIdx;
+        bouncePhase=0; bounceTimer=0;
+        transState='BLINK_OPEN';
+        document.getElementById('sEmote').textContent=emotes[activeIdx].name.toUpperCase();
+        document.getElementById('sState').textContent='OPENING';
+        updateEmoteButtons();
+      }
+    }
+  } else {
+    blinkSt-=blinkSpeed*dt*0.7;
+    if(blinkSt<=0){
+      blinkSt=0;blinking=false;
+      if(transState==='BLINK_OPEN'){
+        transState='IDLE';pendingIdx=-1;
+        document.getElementById('sState').textContent='IDLE';
+      }
+    }
+  }
+}
+
+function updateGlitch(dt){} // removed — no glitch
+
+
+// ═══════════════════════════════════════════════════════
+//  HSV → RGB  (for rainbow mode)
+// ═══════════════════════════════════════════════════════
+function hsvToRgb(h,s,v){
+  const c=v*s, x=c*(1-Math.abs((h/60)%2-1)), m=v-c;
+  let r=0,g=0,b=0;
+  if(h<60){r=c;g=x;}else if(h<120){r=x;g=c;}
+  else if(h<180){g=c;b=x;}else if(h<240){g=x;b=c;}
+  else if(h<300){r=x;b=c;}else{r=c;b=x;}
+  return {r:Math.round((r+m)*255),g:Math.round((g+m)*255),b:Math.round((b+m)*255)};
+}
+
+// ═══════════════════════════════════════════════════════
+//  EYE ZONE OVERLAY
+//  Draws an orange/amber box using actual HUB75 pixels
+//  on top of the rendered frame so it reads naturally.
+// ═══════════════════════════════════════════════════════
+function drawEyeZoneOverlay(e){
+  if(!showEyeZone||!e) return;
+  const {eyeX0,eyeX1,eyeY0,eyeY1}=e;
+
+  // Draw on bufL (left, normal) and bufR (right, mirrored x)
+  const zr=255, zg=160, zb=0; // orange/amber
+
+  const drawEdge=(x,y,side)=>{
+    if(x<0||x>=PW||y<0||y>=PH) return;
+    const i=y*PW+x;
+    if(side==='L'){ bufL[i][0]=zr;bufL[i][1]=zg;bufL[i][2]=zb;bufL[i][3]=0.9; }
+    else { const mx=PW-1-x; bufR[y*PW+mx][0]=zr;bufR[y*PW+mx][1]=zg;bufR[y*PW+mx][2]=zb;bufR[y*PW+mx][3]=0.9; }
+  };
+
+  for(const side of ['L','R']){
+    // Top and bottom edges
+    for(let x=eyeX0;x<=eyeX1;x++){
+      drawEdge(x,eyeY0,side);
+      drawEdge(x,eyeY1,side);
+    }
+    // Left and right edges
+    for(let y=eyeY0;y<=eyeY1;y++){
+      drawEdge(eyeX0,y,side);
+      drawEdge(eyeX1,y,side);
+    }
+  }
+}
+
+// ═══════════════════════════════════════════════════════
+//  SYNC EYE SLIDERS → active emote values
+// ═══════════════════════════════════════════════════════
+function syncZoneSliders(){
+  const e=emotes[activeIdx]; if(!e) return;
+  const map={ex0:'eyeX0',ex1:'eyeX1',ey0:'eyeY0',ey1:'eyeY1'};
+  Object.entries(map).forEach(([k,v])=>{
+    document.getElementById('sl_'+k).value=e[v];
+    document.getElementById('sv_'+k).textContent=e[v];
+  });
+}
+
+// ═══════════════════════════════════════════════════════
+//  MAIN LOOP
+// ═══════════════════════════════════════════════════════
+function frame(now){
+  const dt=now-lastMs;lastMs=now;
+  clrBufs();
+
+  const emote=emotes[activeIdx];
+  if(!emote){renderBuf(gL,bufL);renderBuf(gR,bufR);requestAnimationFrame(frame);return;}
+
+  breathT+=dt*0.001*breathSpeed;
+  breathY=Math.sin(breathT*Math.PI*2)*breathAmp;
+
+  // Rainbow color cycle
+  if(rainbowOn){
+    rainbowHue=(rainbowHue+dt*0.06)%360;
+    const rgb=hsvToRgb(rainbowHue,1,1);
+    ec={r:rgb.r,g:rgb.g,b:rgb.b,hex:'rainbow'};
+    document.documentElement.style.setProperty('--ec','hsl('+rainbowHue+',100%,60%)');
+  }
+
+  updateBlink(dt);
+
+  drawNose(emote.bitmap);
+
+  // Eye — normal or morphing
+  if(eyeMorphOn&&morphT<1.0&&oldEmote){
+    drawEyeMorph(oldEmote, emote, morphT);
+  } else {
+    drawEye(emote);
+  }
+
+  // Advance mouth morph with ease-in-out
+  if(morphT<1.0){
+    morphT=Math.min(1.0, morphT+morphSpeed*dt);
+    if(morphT>=1.0&&eyeMorphOn){
+      document.getElementById('sState').textContent='IDLE';
+    }
+  }
+
+  // Draw mouth
+  if(micOn){
+    updateMicBars();
+    drawMicBars();
+  } else if(morphT<1.0&&oldBitmap){
+    drawMouthMorph(oldBitmap, emote.bitmap, morphT);
+  } else {
+    drawMouth(emote.bitmap);
+  }
+
+  // Blink lid always on top of eye
+  drawBlinkLid(emote);
+
+  // Eye zone overlay drawn INTO pixel buffer — looks native
+  drawEyeZoneOverlay(emote);
+
+  renderBuf(gL,bufL);
+  renderBuf(gR,bufR);
+  requestAnimationFrame(frame);
+}
+
+// ═══════════════════════════════════════════════════════
+//  RENDERER
+// ═══════════════════════════════════════════════════════
+function renderBuf(ctx,buf){
+  ctx.fillStyle='#030303';ctx.fillRect(0,0,CW,CH);
+  for(let y=0;y<PH;y++){
+    for(let x=0;x<PW;x++){
+      const px=x*(PS+PG),py=y*(PS+PG);
+      const [r,g,b,br]=buf[y*PW+x];
+      ctx.fillStyle='#0a0a0a';
+      ctx.beginPath();ctx.arc(px+PS/2,py+PS/2,PS/2,0,Math.PI*2);ctx.fill();
+      if(br>0.02){
+        const gl=ctx.createRadialGradient(px+PS/2,py+PS/2,0,px+PS/2,py+PS/2,PS*2);
+        gl.addColorStop(0,`rgba(${r},${g},${b},${br*0.28})`);
+        gl.addColorStop(1,`rgba(${r},${g},${b},0)`);
+        ctx.fillStyle=gl;ctx.fillRect(px-PS,py-PS,PS*3,PS*3);
+        const lt=ctx.createRadialGradient(px+PS/2,py+PS/2,0,px+PS/2,py+PS/2,PS/2);
+        lt.addColorStop(0,`rgba(${Math.min(255,r+80)},${Math.min(255,g+80)},${Math.min(255,b+80)},${br})`);
+        lt.addColorStop(0.5,`rgba(${r},${g},${b},${br})`);
+        lt.addColorStop(1,`rgba(${r},${g},${b},${br*0.4})`);
+        ctx.fillStyle=lt;ctx.beginPath();ctx.arc(px+PS/2,py+PS/2,PS/2,0,Math.PI*2);ctx.fill();
+      }
+    }
+  }
+}
+
+// ═══════════════════════════════════════════════════════
+//  UI — EMOTE BUTTONS
+// ═══════════════════════════════════════════════════════
+function renderEmoteButtons(){
+  const row=document.getElementById('emoteRow');
+  row.innerHTML='';
+  emotes.forEach((e,i)=>{
+    const btn=document.createElement('button');
+    btn.className='emote-btn'+(i===activeIdx?' active':'');
+    btn.id='ebtn_'+i;
+
+    const pc=document.createElement('canvas');
+    pc.width=64;pc.height=32;pc.style.width='64px';pc.style.height='32px';
+    const img2=new Image();
+    img2.onload=()=>{const ctx2=pc.getContext('2d');ctx2.fillStyle='#080808';ctx2.fillRect(0,0,64,32);ctx2.drawImage(img2,0,0);};
+    img2.src=e.preview;
+
+    const lbl=document.createElement('span');lbl.textContent=e.name.toUpperCase();
+
+    // Delete button (not on built-in emotes if only 1 left)
+    const del=document.createElement('button');
+    del.className='emote-del';del.textContent='✕';del.title='Remove';
+    del.addEventListener('click',ev=>{
+      ev.stopPropagation();
+      if(emotes.length<=1)return;
+      emotes.splice(i,1);
+      if(activeIdx>=emotes.length)activeIdx=emotes.length-1;
+      renderEmoteButtons();
+    });
+
+    btn.appendChild(pc);btn.appendChild(lbl);btn.appendChild(del);
+    btn.addEventListener('click',()=>requestTransition(i));
+    row.appendChild(btn);
+  });
+}
+
+function updateEmoteButtons(){
+  document.querySelectorAll('.emote-btn').forEach((b,i)=>b.classList.toggle('active',i===activeIdx));
+  syncZoneSliders();
+}
+
+// ═══════════════════════════════════════════════════════
+//  UPLOAD
+// ═══════════════════════════════════════════════════════
+let pendingFile=null;
+
+document.getElementById('fileInput').addEventListener('change',e=>{
+  if(e.target.files[0]) pendingFile=e.target.files[0];
+});
+
+const dz=document.getElementById('dropZone');
+dz.addEventListener('dragover',e=>{e.preventDefault();dz.classList.add('drag');});
+dz.addEventListener('dragleave',()=>dz.classList.remove('drag'));
+dz.addEventListener('drop',e=>{
+  e.preventDefault();dz.classList.remove('drag');
+  if(e.dataTransfer.files[0]) pendingFile=e.dataTransfer.files[0];
+});
+
+document.getElementById('btnAdd').addEventListener('click',e=>{
+  e.stopPropagation();
+  const fi=document.getElementById('fileInput');
+  const file=pendingFile||(fi.files[0]||null);
+  if(!file){fi.click();return;}
+  const name=document.getElementById('emoteName').value.trim()||
+    file.name.replace(/\.[^.]+$/,'').replace(/[-_]/g,' ');
+  const url=URL.createObjectURL(file);
+  const img=new Image();
+  img.onload=()=>{
+    addEmote(name,imgToBitmap(img));
+    URL.revokeObjectURL(url);
+    document.getElementById('emoteName').value='';
+    document.getElementById('fileInput').value='';
+    pendingFile=null;
+  };
+  img.src=url;
+});
+
+// ═══════════════════════════════════════════════════════
+//  SLIDERS + CONTROLS
+// ═══════════════════════════════════════════════════════
+function wire(id,valId,fmt,cb){
+  const sl=document.getElementById(id);
+  const sv=document.getElementById(valId);
+  sl.addEventListener('input',()=>{const v=parseFloat(sl.value);sv.textContent=fmt(v);cb(v);});
+}
+wire('sl_bAmp', 'sv_bAmp', v=>v.toFixed(1),  v=>breathAmp=v);
+wire('sl_bSpd', 'sv_bSpd', v=>v.toFixed(2),  v=>breathSpeed=v);
+wire('sl_blSpd','sv_blSpd',v=>v.toFixed(3),  v=>blinkSpeed=v);
+wire('sl_blInt','sv_blInt',v=>(v/1000).toFixed(1)+'s',v=>blinkInterval=v);
+wire('sl_morph', 'sv_morph', v=>v.toFixed(3), v=>morphSpeed=v);
+
+function setColor(c){
+  rainbowOn=false;
+  ec=c;
+  try{ document.documentElement.style.setProperty('--ec',c.hex); }catch(e){}
+  refreshPreviews();
+}
+function pickColor(name){
+  const c=COLORS.find(x=>x.name===name); if(!c) return;
+  setColor(c);
+  document.querySelectorAll('.swatch,.swatch-rainbow').forEach(s=>s.classList.remove('active'));
+  const btn=document.querySelector('.swatch[data-color="'+name+'"]');
+  if(btn) btn.classList.add('active');
+}
+function pickRainbow(){
+  rainbowOn=true;
+  document.querySelectorAll('.swatch,.swatch-rainbow').forEach(s=>s.classList.remove('active'));
+  document.querySelector('.swatch-rainbow').classList.add('active');
+}
+
+document.getElementById('btnBlink').addEventListener('click',triggerBlink);
+document.getElementById('btnEyeMorph').addEventListener('click',()=>{
+  eyeMorphOn=!eyeMorphOn;
+  const b=document.getElementById('btnEyeMorph');
+  b.textContent='EYE MORPH: '+(eyeMorphOn?'ON':'OFF');
+  b.classList.toggle('on',eyeMorphOn);
+  // Blink transition is mutually exclusive with eye morph
+  if(eyeMorphOn){
+    // Switch to instant swap — no blink close, morph handles transition
+    document.getElementById('btnEyelid').textContent='EYELID: OFF';
+    document.getElementById('btnEyelid').classList.remove('on');
+    showEyelid=false;
+  }
+});
+document.getElementById('btnMic').addEventListener('click',toggleMic);
+document.getElementById('btnAutoBlink').addEventListener('click',()=>{
+  autoBlink=!autoBlink;
+  const b=document.getElementById('btnAutoBlink');
+  b.textContent='AUTO BLINK: '+(autoBlink?'ON':'OFF');
+  b.classList.toggle('on',autoBlink);
+});
+document.getElementById('btnEyelid').addEventListener('click',()=>{
+  showEyelid=!showEyelid;
+  const b=document.getElementById('btnEyelid');
+  b.textContent='EYELID: '+(showEyelid?'ON':'OFF');
+  b.classList.toggle('on',showEyelid);
+});
+
+// ═══════════════════════════════════════════════════════
+//  EYE ZONE CONTROLS
+// ═══════════════════════════════════════════════════════
+const zMap={ex0:'eyeX0',ex1:'eyeX1',ey0:'eyeY0',ey1:'eyeY1'};
+Object.entries(zMap).forEach(([k,prop])=>{
+  document.getElementById('sl_'+k).addEventListener('input',()=>{
+    const e=emotes[activeIdx]; if(!e) return;
+    const v=parseInt(document.getElementById('sl_'+k).value);
+    document.getElementById('sv_'+k).textContent=v;
+    e[prop]=v;
+  });
+});
+
+document.getElementById('btnShowZone').addEventListener('click',()=>{
+  showEyeZone=!showEyeZone;
+  const b=document.getElementById('btnShowZone');
+  b.textContent='SHOW ZONE: '+(showEyeZone?'ON':'OFF');
+  b.classList.toggle('on',showEyeZone);
+});
+
+document.getElementById('btnCopyZone').addEventListener('click',()=>{
+  const e=emotes[activeIdx]; if(!e) return;
+  const n=e.name.toUpperCase();
+  const txt='addBuiltIn("'+n+'", BM_'+n+', true, '+e.eyeX0+','+e.eyeX1+','+e.eyeY0+','+e.eyeY1+', 19,31);';
+  const out=document.getElementById('zoneOut');
+  out.textContent=txt;
+  if(navigator.clipboard&&navigator.clipboard.writeText) navigator.clipboard.writeText(txt).catch(()=>{});
+});
+
+// ═══════════════════════════════════════════════════════
+//  INIT — load built-in emotes
+// ═══════════════════════════════════════════════════════
+let loadedCount=0;
+BUILT_IN.forEach((def,i)=>{
+  const img=new Image();
+  img.onload=()=>{
+    emotes[i]={name:def.name,bitmap:imgToBitmap(img),...detectEye(emotes[i]?.bitmap||new Float32Array(PW*PH)),preview:''};
+    emotes[i].bitmap=imgToBitmap(img);
+    Object.assign(emotes[i],detectEye(emotes[i].bitmap));
+    emotes[i].preview=makePreview(emotes[i].bitmap);
+    loadedCount++;
+    if(loadedCount===BUILT_IN.length){
+      renderEmoteButtons();
+      document.getElementById('sEmote').textContent=emotes[0].name.toUpperCase();
+      document.getElementById('sState').textContent='IDLE';
+      syncZoneSliders();
+      requestAnimationFrame(frame);
+    }
+  };
+  emotes[i]={name:def.name,bitmap:new Float32Array(PW*PH),eyeX0:36,eyeX1:58,eyeY0:3,eyeY1:13,preview:''};
+  img.src=def.src;
+});
+</script>
+<br>
+</body>
+</html>
+        </div>
+    </body>
+</html>
